@@ -2,7 +2,7 @@
 
   services:
     spark:
-      build: Spark/.
+      build: spark/.
       networks:
         - dbnet
       ports:
